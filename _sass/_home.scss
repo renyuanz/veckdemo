@@ -12,7 +12,7 @@ i.mdi-navigation-menu {
   width: 50px;
   margin-left: 30px;
   margin-top: 5px;
-  background: url(/img/greylogo.png) no-repeat left top;
+  background: url({{site.baseurl}}/img/greylogo.png) no-repeat left top;
   background-size: 100%;
   vertical-align: text-top;
   position: relative;
@@ -47,7 +47,7 @@ i.mdi-navigation-menu {
   padding: 100px 0;
   text-align: center;
   color: #fff;
-  background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url({{site.baseurl}}/img/intro-bg.jpg) no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -132,7 +132,7 @@ i.mdi-navigation-menu {
   width: 50px;
   margin-left: 5px;
   margin-top: 20px;
-  background: url(/img/logo.png) no-repeat left top;
+  background: url({{site.baseurl}}/img/logo.png) no-repeat left top;
   background-size: 100%;
   vertical-align: text-top;
   position: relative;

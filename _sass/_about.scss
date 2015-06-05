@@ -6,7 +6,7 @@
   padding: 100px 0;
   text-align: center;
   color: #fff;
-  background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url({{ site.baseurl }}/img/intro-bg.jpg) no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -90,6 +90,6 @@
 .about-slider {
   button {
     border: none;
-    
+
   }
 }
