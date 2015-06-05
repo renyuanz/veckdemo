@@ -8280,5 +8280,10 @@ i.mdi-navigation-menu {
 .about-icon-5::after {
   content: "\e76d"; }
 
-.about-slider button {
-  border: none; }
+.about-slider {
+  margin: 50px auto; }
+  .about-slider button {
+    border: none; }
+  .about-slider p {
+    padding: 10px;
+    line-height: 2; }

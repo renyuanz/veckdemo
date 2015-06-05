@@ -88,8 +88,12 @@
 }
 
 .about-slider {
+  margin: 50px auto;
   button {
     border: none;
-
+  }
+  p {
+    padding: 10px;
+    line-height: 2;
   }
 }

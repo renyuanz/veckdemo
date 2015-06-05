@@ -69,6 +69,7 @@
     line-height: 1;
     opacity: .75;
     color: #7cb342;
+    font-weight: 700;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -85,11 +86,11 @@
 }
 .slick-prev:before
 {
-    content: '<';
+    content: '←';
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '>';
+    content: '→';
 }
 
 .slick-next
@@ -103,11 +104,11 @@
 }
 .slick-next:before
 {
-    content: '>';
+    content: '→';
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '<';
+    content: '←';
 }
 
 /* Dots */
