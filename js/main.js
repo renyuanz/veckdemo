@@ -6,11 +6,13 @@
 
 // jQuery to collapse the navbar on scroll
 $(document).ready(function() {
-  
+
   $(".button-collapse").sideNav();
 
   $('.about-slider').slick({
     autoplay: true,
     autoplaySpeed: 6000
   });
+
+  $("ul.tabs-custom").tabs();
 });

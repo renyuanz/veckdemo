@@ -35,3 +35,49 @@
     margin: 3px auto;
   }
 }
+
+
+/* Tabs */
+
+.section-exhi {
+  .tabs {
+    height: 180px;
+
+
+    .tab {
+      height: 150px;
+      margin-top: 30px;
+      line-height: 2em;
+      a {
+        color: #212121;
+        @include transition( color .28s ease);
+        &:hover {
+          color: lighten(#212121, 20%);
+        }
+      }
+      p {
+        padding: 0;
+        margin: 0;
+      }
+    }
+
+    .indicator {
+      background-color: #212121;
+    }
+  }
+
+  .tabs-content {
+
+    .row {
+      padding: 0;
+      margin: 0;
+    }
+    div.col {
+      padding-left: 3px;
+      padding-right: 3px;
+    }
+    img {
+      margin: 3px auto;
+    }
+  }
+}

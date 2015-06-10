@@ -2,11 +2,19 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
+@font-face {
+  font-family: PingHei;
+  src: url(../font/PingHei/Ping_Hei_Text.ttf);
+}
 
+@font-face {
+  font-family: MyriadSetPro;
+  src: url(../font/MyriadSetPro/MyriadSetPro-Semibold.ttf);
+}
 
 
 // Our variables
-$base-font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: PingHei, MyriadSetPro, Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;

@@ -1,3 +1,9 @@
+@font-face {
+  font-family: PingHei;
+  src: url(../font/PingHei/Ping_Hei_Text.ttf); }
+@font-face {
+  font-family: MyriadSetPro;
+  src: url(../font/MyriadSetPro/MyriadSetPro-Semibold.ttf); }
 .materialize-red.lighten-5 {
   background-color: #fdeaeb !important; }
 
@@ -8014,7 +8020,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
  * Basic styling
  */
 body {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: PingHei, MyriadSetPro, Helvetica, Arial, sans-serif;
   font-size: 16px;
   -webkit-text-size-adjust: 100%;
   width: 100%;
@@ -8316,4 +8322,34 @@ i.mdi-navigation-menu {
   padding: 10px 0; }
 .exhi-content .section {
   padding: 100px 0;
+  margin: 3px auto; }
+
+/* Tabs */
+.section-exhi .tabs {
+  height: 180px; }
+  .section-exhi .tabs .tab {
+    height: 150px;
+    margin-top: 30px;
+    line-height: 2em; }
+    .section-exhi .tabs .tab a {
+      color: #212121;
+      -webkit-transition: color 0.28s ease;
+      -moz-transition: color 0.28s ease;
+      -o-transition: color 0.28s ease;
+      -ms-transition: color 0.28s ease;
+      transition: color 0.28s ease; }
+      .section-exhi .tabs .tab a:hover {
+        color: #545454; }
+    .section-exhi .tabs .tab p {
+      padding: 0;
+      margin: 0; }
+  .section-exhi .tabs .indicator {
+    background-color: #212121; }
+.section-exhi .tabs-content .row {
+  padding: 0;
+  margin: 0; }
+.section-exhi .tabs-content div.col {
+  padding-left: 3px;
+  padding-right: 3px; }
+.section-exhi .tabs-content img {
   margin: 3px auto; }
