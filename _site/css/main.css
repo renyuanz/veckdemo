@@ -8294,7 +8294,7 @@ i.mdi-navigation-menu {
     padding: 10px;
     line-height: 2; }
 
-/* About page */
+/* Exhibition page */
 .intro-exhi {
   display: table;
   width: 100%;
@@ -8353,3 +8353,45 @@ i.mdi-navigation-menu {
   padding-right: 3px; }
 .section-exhi .tabs-content img {
   margin: 3px auto; }
+
+/* Recruitment Page */
+.intro-recruitment {
+  display: table;
+  width: 100%;
+  height: 80%;
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
+  background: url(../img/recruitment/bg.jpg) no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+
+.intro-recruitment .intro-body {
+  display: table-cell;
+  vertical-align: middle; }
+
+.intro-recruitment .intro-body .intro-text {
+  text-align: left;
+  font-size: 48px;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 8px #000000; }
+
+.rec-content p {
+  padding: 10px 0; }
+.rec-content .section {
+  padding: 100px 0;
+  margin: 3px auto; }
+
+.section-rec .tabs .tab a {
+  color: #212121;
+  -webkit-transition: color 0.28s ease;
+  -moz-transition: color 0.28s ease;
+  -o-transition: color 0.28s ease;
+  -ms-transition: color 0.28s ease;
+  transition: color 0.28s ease; }
+  .section-rec .tabs .tab a:hover {
+    color: #545454; }
+.section-rec .tabs .indicator {
+  background-color: #212121; }

@@ -1,31 +1,32 @@
-/* Exhibition page */
-.intro-exhi {
+/* Recruitment Page */
+
+.intro-recruitment {
   display: table;
   width: 100%;
   height: 80%;
   padding: 100px 0;
   text-align: center;
   color: #fff;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/recruitment/bg.jpg) no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 
-.intro-exhi .intro-body {
+.intro-recruitment .intro-body {
   display: table-cell;
   vertical-align: middle;
 }
 
-.intro-exhi .intro-body .intro-text {
+.intro-recruitment .intro-body .intro-text {
   text-align: left;
   font-size: 48px;
   letter-spacing: 3px;
   text-shadow: 2px 2px 8px #000000;
 }
 
-.exhi-content {
+.rec-content {
 
   p {
     padding: 10px 0;
@@ -37,17 +38,9 @@
 }
 
 
-/* Tabs */
-
-.section-exhi {
+.section-rec {
   .tabs {
-    height: 180px;
-
-
     .tab {
-      height: 150px;
-      margin-top: 30px;
-      line-height: 2em;
       a {
         color: #212121;
         @include transition( color .28s ease);
@@ -55,29 +48,10 @@
           color: lighten(#212121, 20%);
         }
       }
-      p {
-        padding: 0;
-        margin: 0;
-      }
     }
 
     .indicator {
       background-color: #212121;
-    }
-  }
-
-  .tabs-content {
-
-    .row {
-      padding: 0;
-      margin: 0;
-    }
-    div.col {
-      padding-left: 3px;
-      padding-right: 3px;
-    }
-    img {
-      margin: 3px auto;
     }
   }
 }
