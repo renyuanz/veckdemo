@@ -21,7 +21,7 @@
 .intro-about .intro-body .intro-text {
   text-align: left;
   font-size: 48px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   text-shadow: 2px 2px 8px #000000;
 }
 
@@ -29,6 +29,7 @@
 
   p {
     padding: 10px 0;
+    line-height: 2;
   }
   .section {
     padding: 100px 0;
@@ -96,4 +97,8 @@
     padding: 10px;
     line-height: 2;
   }
+}
+
+.text-title {
+  font-size: 18px;
 }

@@ -71,7 +71,8 @@
     }
 
     .indicator {
-      background-color: #212121;
+      background-color: #4caf50;
+      height: 8px;
     }
   }
 
@@ -82,11 +83,13 @@
       margin: 0;
     }
     div.col {
-      padding-left: 3px;
-      padding-right: 3px;
+      padding-left: 1px;
+      padding-right: 1px;
     }
     img {
-      margin: 3px auto;
+      margin: 1px auto;
     }
+
+  
   }
 }

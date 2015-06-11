@@ -16,6 +16,8 @@
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
 
+    
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -34,30 +36,40 @@
     <div class="nav-wrapper navbar-custom">
       <a href="/" class="brand-logo">
         <span role="banner" class="ir">Veck</span>
-        <a href="/" class="hide-on-med-and-down logo-text">维克</a>
+        <a href="/" class="hide-on-med-and-down logo-text green-text">维克</a>
      </a>
 
 
     <!-- Dropdown Structure -->
-    <ul id="dropdown_menu" class="dropdown-content">
-      <li><a href="/product/veck">维克（天津）有限公司</a></li>
-      <li class="divider"></li>
-      <li><a href="/product/veck_env">维克环保设备（天津）有限公司</a></li>
-    </ul>
+
 
      <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-     <ul class="right hide-on-med-and-down">
+     <ul class="right hide-on-med-and-down navmenu">
        <li><a href="/">首页</a></li>
        <li><a href="/about">关于维克</a></li>
        <li><a href="/exhibition">维克展示</a></li>
-       <li><a class="dropdown-button" href="/product" data-activates="dropdown_menu">维克旗下公司及产品<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
+       <li class="navdropmenu" class="has-sub"><a href="/product">维克旗下公司及产品</a>
+         <ul>
+           <li><a href="/product">维克（天津）有限公司</a></li>
+           <li class="last"><a href="/product/veck">维克环保设备（天津）有限公司</a></li>
+         </ul>
+       </li>
        <li><a href="/recruitment">在维克工作</a></li>
      </ul>
-     <ul class="side-nav" id="mobile-nav">
+     <ul class="side-nav sidenavmenu" id="mobile-nav">
        <li><a href="/about">关于维克</a></li>
        <li><a href="/exhibition">维克展示</a></li>
-       <li><a class="dropdown-button" href="/product" data-activates="dropdown_menu">维克旗下公司及产品<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
-       <li><a href="/recruitment">在维克工作</a></li>
+       <li><a href="/product">维克旗下公司及产品</a>
+         <ul>
+           <li>
+             <a href="/product">维克（天津）有限公司</a>
+           </li>
+           <li>
+             <a href="/product/veck">维克环保设备（天津）有限公司</a>
+           </li>
+         </ul>
+       </li>
+       <li class="last"><a href="/recruitment">在维克工作</a></li>
      </ul>
     </div>
   </nav>
@@ -88,7 +100,7 @@
       </div>
 
       <div id="tab1" class="col s12 tabs-content left-align">
-        <h3>销售技术支持</h3>
+        <h6>销售技术支持</h6>
         <b>基本信息：</b>
         <p>公司行业：机械/设备/重工</p>
         <p>公司性质：民营公司</p>
@@ -110,7 +122,7 @@
       </div>
 
       <div id="tab2" class="col s12 tabs-content left-align">
-        <h3>销售财务文员</h3>
+        <h6>销售财务文员</h6>
         <b>基本信息：</b>
         <p>公司行业：机械/设备/重工</p>
         <p>公司性质：民营公司</p>
@@ -136,7 +148,7 @@
       </div>
 
       <div id="tab3" class="col s12 tabs-content left-align">
-        <h3>销售服务</h3>
+        <h6>销售服务</h6>
         <b>基本信息：</b>
         <p>公司行业：机械/设备/重工</p>
         <p>公司性质：民营公司</p>
@@ -160,7 +172,7 @@
       </div>
 
       <div id="tab4" class="col s12 tabs-content left-align">
-        <h3>销售工程师</h3>
+        <h6>销售工程师</h6>
         <b>基本信息：</b>
         <p>公司行业：机械/设备/重工</p>
         <p>公司性质：民营公司</p>
@@ -191,7 +203,7 @@
       </div>
 
       <div id="tab5" class="col s12 tabs-content left-align">
-        <h3>销售经理</h3>
+        <h6>销售经理</h6>
         <b>基本信息：</b>
         <p>公司行业：机械/设备/重工</p>
         <p>公司性质：民营公司</p>
@@ -236,19 +248,13 @@
       <h5 class="grey-text text-lighten-1 center-align">Copyright &copy; 2015 维克（天津）有限公司版权所有 All rights reserved<br>津ICP备14004162号-1</h6>
     </div>
 
-    <div class="col s8 m2">
-      <h6 class="grey-text text-lighten-1 right-align">天津市武清区开发区<br>源和道16号</h6>
-    </div>
-    <div class="col s4 m1">
-      <img src="/img/logo.png" alt="">
-    </div>
-
   </div>
 
 </div>
 
      <!-- jQuery Version 1.11.0 -->
 <script src="/js/jquery.js"></script>
+<script src="/js/jquery-ui.min.js"></script>
 
 <!-- Materialize Core JavaScript -->
 <script src="/js/materialize.min.js"></script>
@@ -258,7 +264,7 @@
 <script type="text/javascript" src="/js/slick.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="/js/main.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
 
     </body>
 </html>

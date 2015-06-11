@@ -1,9 +1,9 @@
 @font-face {
-  font-family: PingHei;
-  src: url(../font/PingHei/Ping_Hei_Text.ttf); }
+  font-family: PingHeiLight;
+  src: url(../font/PingHei/Ping_Hei_Light.ttf); }
 @font-face {
   font-family: MyriadSetPro;
-  src: url(../font/MyriadSetPro/MyriadSetPro-Semibold.ttf); }
+  src: url(../font/MyriadSetPro/MyriadSetPro-Thin.ttf); }
 .materialize-red.lighten-5 {
   background-color: #fdeaeb !important; }
 
@@ -5715,7 +5715,7 @@ button.btn-floating {
     .dropdown-content li:hover, .dropdown-content li.active {
       background-color: #eee; }
     .dropdown-content li > a, .dropdown-content li > span {
-      font-size: 1.2rem;
+      font-size: 1rem;
       color: #26a69a;
       display: block;
       padding: 1rem 1rem; }
@@ -8020,11 +8020,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
  * Basic styling
  */
 body {
-  font-family: PingHei, MyriadSetPro, Helvetica, Arial, sans-serif;
+  font-family: "PingHeiLight", "MyriadSetPro", Helvetica, Arial, sans-serif;
   font-size: 16px;
   -webkit-text-size-adjust: 100%;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  color: #424242; }
 
 html {
   width: 100%;
@@ -8098,8 +8099,8 @@ i.mdi-navigation-menu {
 [role="banner"] {
   width: 50px;
   margin-left: 30px;
-  margin-top: 5px;
-  background: url(../img/greylogo.png) no-repeat left top;
+  margin-top: 7px;
+  background: url(../img/logo.png) no-repeat left top;
   background-size: 100%;
   vertical-align: text-top;
   position: relative; }
@@ -8132,7 +8133,7 @@ i.mdi-navigation-menu {
   height: 80%;
   padding: 100px 0;
   text-align: center;
-  color: #fff;
+  color: #f5f5f5;
   background: url(../img/home/home-bg.png) no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -8146,17 +8147,29 @@ i.mdi-navigation-menu {
 .intro .intro-body .intro-text {
   text-align: left;
   font-size: 36px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   text-shadow: 2px 2px 8px #000000; }
+
+.card {
+  margin: 1px 0px 1px;
+  overflow: hidden; }
 
 .img-card {
   height: 150px; }
+
+.section-home {
+  padding: 0;
+  margin: 0; }
+  .section-home .row {
+    margin: 0 auto; }
+  .section-home .col {
+    padding: 0 1px; }
 
 .img-card .card-title-custom {
   position: absolute;
   top: 0;
   left: 0;
-  margin-top: 50px;
+  margin-top: 35px;
   margin-left: auto;
   margin-right: auto;
   font-size: 18px;
@@ -8171,9 +8184,71 @@ i.mdi-navigation-menu {
   background-color: #212121; }
 
 .row .newsbox {
-  height: auto;
-  border: 1px solid #fff;
+  height: 275px;
   padding: 20px; }
+  .row .newsbox p {
+    font-size: 14px;
+    margin: 10.5px auto; }
+
+.news .date-box {
+  line-height: 1;
+  margin: 2px 10px;
+  text-align: right; }
+  .news .date-box .date {
+    font-size: 26px; }
+
+/* Navbar */
+ul.navmenu {
+  display: inline;
+  margin: 0;
+  list-style: none; }
+  ul.navmenu > li {
+    display: inline-block;
+    position: relative;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s; }
+    ul.navmenu > li:hover ul {
+      display: block;
+      opacity: 1;
+      visibility: visible; }
+    ul.navmenu > li ul {
+      padding: 0;
+      position: absolute;
+      top: 64px;
+      left: 0;
+      width: 165px;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      display: none;
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transiton: opacity 0.2s;
+      -moz-transition: opacity 0.2s;
+      -ms-transition: opacity 0.2s;
+      -o-transition: opacity 0.2s;
+      -transition: opacity 0.2s; }
+      ul.navmenu > li ul > li {
+        background-color: #e8e8e8;
+        width: 165px; }
+        ul.navmenu > li ul > li:hover, ul.navmenu > li ul > li.active {
+          background-color: #e0e0e0; }
+        ul.navmenu > li ul > li a {
+          font-size: 12px;
+          line-height: 1.3;
+          margin: 5px auto; }
+
+ul.sidenavmenu > li:hover {
+  border-color: #e8e8e8; }
+ul.sidenavmenu > li ul li a {
+  line-height: 32px;
+  font-size: 10px;
+  height: 32px; }
+  ul.sidenavmenu > li ul li a:hover {
+    color: #9e9e9e; }
 
 .footer {
   position: relative;
@@ -8186,8 +8261,8 @@ i.mdi-navigation-menu {
   margin-bottom: 0; }
 
 .footer i {
-  height: 75px;
-  line-height: 75px;
+  height: 60px;
+  line-height: 60px;
   display: block;
   font-size: 2.7rem; }
 
@@ -8196,15 +8271,6 @@ i.mdi-navigation-menu {
 
 .footer h6 {
   font-size: 10px; }
-
-.footer img {
-  width: 50px;
-  margin-left: 5px;
-  margin-top: 20px;
-  background: url(../img/greylogo.png) no-repeat left top;
-  background-size: 100%;
-  vertical-align: text-top;
-  position: relative; }
 
 /* About page */
 .intro-about {
@@ -8227,11 +8293,12 @@ i.mdi-navigation-menu {
 .intro-about .intro-body .intro-text {
   text-align: left;
   font-size: 48px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   text-shadow: 2px 2px 8px #000000; }
 
 .about-content p {
-  padding: 10px 0; }
+  padding: 10px 0;
+  line-height: 2; }
 .about-content .section {
   padding: 100px 0;
   margin: 3px auto; }
@@ -8294,6 +8361,9 @@ i.mdi-navigation-menu {
     padding: 10px;
     line-height: 2; }
 
+.text-title {
+  font-size: 18px; }
+
 /* Exhibition page */
 .intro-exhi {
   display: table;
@@ -8348,15 +8418,16 @@ i.mdi-navigation-menu {
       padding: 0;
       margin: 0; }
   .section-exhi .tabs .indicator {
-    background-color: #212121; }
+    background-color: #4caf50;
+    height: 8px; }
 .section-exhi .tabs-content .row {
   padding: 0;
   margin: 0; }
 .section-exhi .tabs-content div.col {
-  padding-left: 3px;
-  padding-right: 3px; }
+  padding-left: 1px;
+  padding-right: 1px; }
 .section-exhi .tabs-content img {
-  margin: 3px auto; }
+  margin: 1px auto; }
 
 /* Recruitment Page */
 .intro-recruitment {
@@ -8399,3 +8470,11 @@ i.mdi-navigation-menu {
     color: #545454; }
 .section-rec .tabs .indicator {
   background-color: #212121; }
+.section-rec h6 {
+  font-size: 20px;
+  color: #424242; }
+.section-rec p {
+  margin: 10px auto;
+  color: #424242; }
+.section-rec a {
+  color: #4caf50; }

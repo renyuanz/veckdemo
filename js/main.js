@@ -16,5 +16,15 @@ $(document).ready(function() {
 
   $("ul.tabs-custom").tabs();
 
-  $(".dropdown-button").dropdown();
+  // $(".dropdown-button").dropdown();
+  //
+  // $(".navmenu").menu();
+
+  var menu = $(".navbar-custom");
+  var menuList = menu.find("ul:first");
+  var listItems = menu.find("li").not('#responsive-tab');
+
+
+
+
 });

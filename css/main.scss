@@ -3,18 +3,18 @@
 ---
 @charset "utf-8";
 @font-face {
-  font-family: PingHei;
-  src: url(../font/PingHei/Ping_Hei_Text.ttf);
+  font-family: PingHeiLight;
+  src: url(../font/PingHei/Ping_Hei_Light.ttf);
 }
 
 @font-face {
   font-family: MyriadSetPro;
-  src: url(../font/MyriadSetPro/MyriadSetPro-Semibold.ttf);
+  src: url(../font/MyriadSetPro/MyriadSetPro-Thin.ttf);
 }
 
 
 // Our variables
-$base-font-family: PingHei, MyriadSetPro, Helvetica, Arial, sans-serif;
+$base-font-family: "PingHeiLight", "MyriadSetPro", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -25,7 +25,7 @@ $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
-$grey-color:       #828282;
+$grey-color:       #424242;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
