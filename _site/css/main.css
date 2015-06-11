@@ -8318,6 +8318,10 @@ i.mdi-navigation-menu {
   letter-spacing: 3px;
   text-shadow: 2px 2px 8px #000000; }
 
+@media screen and (max-width: 500px) {
+  .tabs-custom p,
+  .tabs-custom a {
+    font-size: 12px; } }
 .exhi-content p {
   padding: 10px 0; }
 .exhi-content .section {
