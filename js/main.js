@@ -16,15 +16,10 @@ $(document).ready(function() {
 
   $("ul.tabs-custom").tabs();
 
-  // $(".dropdown-button").dropdown();
-  //
-  // $(".navmenu").menu();
-
-  var menu = $(".navbar-custom");
-  var menuList = menu.find("ul:first");
-  var listItems = menu.find("li").not('#responsive-tab');
-
-
-
-
+  $(".modal-trigger").leanModal({
+    dismissble: true,
+    opacity: .5,
+    in_duration: 300,
+    out_duration: 200
+  });
 });

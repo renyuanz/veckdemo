@@ -6,7 +6,7 @@
   padding: 100px 0;
   text-align: center;
   color: #fff;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/exhibition/bg.jpg) no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -43,12 +43,20 @@
     padding: 100px 0;
     margin: 3px auto;
   }
+
+
 }
 
 
 /* Tabs */
 
 .section-exhi {
+
+  padding-top: 0;
+  padding-bottom: 1rem;
+  .row .col {
+    padding: 0;
+  }
   .tabs {
     height: 180px;
 
@@ -90,6 +98,6 @@
       margin: 1px auto;
     }
 
-  
+
   }
 }

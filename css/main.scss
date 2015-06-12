@@ -3,18 +3,18 @@
 ---
 @charset "utf-8";
 @font-face {
-  font-family: PingHeiLight;
+  font-family: 'PingHeiLight';
   src: url(../font/PingHei/Ping_Hei_Light.ttf);
 }
 
 @font-face {
-  font-family: MyriadSetPro;
-  src: url(../font/MyriadSetPro/MyriadSetPro-Thin.ttf);
+  font-family: 'MyriadSetPro';
+  src: url(../font/MyriadSetPro/MyriadSetPro-Thin.ttf) format("truetype");
 }
 
 
 // Our variables
-$base-font-family: "PingHeiLight", "MyriadSetPro", Helvetica, Arial, sans-serif;
+$base-font-family: "PingHeiLight", "MyriadSetPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -36,5 +36,6 @@ $grey-color-dark:  darken($grey-color, 25%);
         "home",
         "about",
         "exhibition",
-        "recruitment"
+        "recruitment",
+        "product"
 ;
