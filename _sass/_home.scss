@@ -53,27 +53,24 @@ i.mdi-navigation-menu {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-}
-.intro .intro-body {
-  display: table-cell;
-  vertical-align: middle;
+
+  .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+
+    .intro-text {
+      text-align: left;
+      font-size: 36px;
+      letter-spacing: 2px;
+      text-shadow: 1px 1px 4px #000000;
+    }
+  }
 }
 
-.intro .intro-body .intro-text {
-  text-align: left;
-  font-size: 36px;
-  letter-spacing: 2px;
-  text-shadow: 2px 2px 8px #000000;
-}
 
-
-.card {
-  margin: 1px 0px 1px;
-  overflow: hidden;
-}
 .img-card {
-  height: 150px;
-
+  height: auto;
+  overflow: hidden;
 }
 
 .section-home {
@@ -102,12 +99,11 @@ i.mdi-navigation-menu {
   position: absolute;
   top: 0;
   left: 0;
-  margin-top: 35px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 40px auto 0px;
   font-size: 18px;
   width:100%;
   text-align: center;
+  color: #212121;
 }
 
 .vertical-line {

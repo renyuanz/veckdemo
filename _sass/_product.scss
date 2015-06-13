@@ -19,7 +19,7 @@
 
     .product-item{
       background-color: #eee;
-      height: 100px;
+      height: 80px;
       display: table;
       border: 1px solid #fff;
       table-layout: fixed;
@@ -35,14 +35,14 @@
       margin: 3rem auto -12rem;
       .product-1 {
         position: absolute;
-        top: -2.6rem;
+        top: -2.2rem;
         right: 6rem;
         max-height: 275px;
         z-index: 2;
 
       }
       .product-1 + .product-1 {
-        top: -4.3rem;
+        top: -3.9rem;
         display: block;
         max-width: 75%;
         right: 0;
@@ -72,13 +72,15 @@
   }
 }
 
+
+
 .product-text {
   color: #4caf50;
   text-transform: capitalize;
 }
 #product-section-1 {
   height: 80%;
-  background: url(../img/product/veck/1_vfc/right.png) no-repeat bottom right scroll;
+  background: url(../img/product/veck/1_vfc/right.png) no-repeat right scroll;
   background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -86,7 +88,7 @@
 }
 
 #product-section-2 {
-  background: url(../img/product/veck/1_vfc/left.png) no-repeat bottom left scroll;
+  background: url(../img/product/veck/1_vfc/left.png) no-repeat left scroll;
   background-size: auto;
   -moz-background-size: auto;
   -o-background-size: auto;
@@ -100,7 +102,7 @@
 }
 
 #product-section-5 {
-  background: url(../img/product/veck/4_vae/4-2.png) no-repeat 20% -35% scroll;
+  background: url(../img/product/veck/4_vae/4-2.png) no-repeat 20% -15% scroll;
   background-size: 600px;
   -moz-background-size: 600px;
   -o-background-size: 600px;
