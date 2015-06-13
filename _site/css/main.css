@@ -8612,7 +8612,7 @@ ul.sidenavmenu > li ul li a {
   -o-background-size: cover;
   background-size: cover; }
   #product-env-section-1 h1 {
-    padding-left: 100px; }
+    margin: 0 8rem; }
 
 #product-env-section-2 {
   background: url(../img/product/veckenv/vgd/1-2.jpg) no-repeat 85% 5% scroll;
