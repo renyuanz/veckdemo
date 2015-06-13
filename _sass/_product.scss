@@ -22,6 +22,7 @@
       height: 100px;
       display: table;
       border: 1px solid #fff;
+      table-layout: fixed;
       > span {
         display: table-cell;
         vertical-align: middle;
@@ -78,33 +79,42 @@
 #product-section-1 {
   background: url(../img/product/veck/1_vfc/right.png) no-repeat bottom right scroll;
   background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
 }
 
 #product-section-2 {
   background: url(../img/product/veck/1_vfc/left.png) no-repeat bottom left scroll;
   background-size: auto;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  -o-background-size: auto;
 }
 
 #product-section-4 {
-  background: url(../img/product/veck/3_vah/3-2.png) no-repeat scroll;
-  background-position-x: 90%;
-  background-position-y: 50%;
+  background: url(../img/product/veck/3_vah/3-2.png) no-repeat 90% 50% scroll;
   background-size: 400px;
+  -webkit-background-size: 400px;
+  -moz-background-size: 400px;
+  -o-background-size: 400px;
 }
 
 #product-section-5 {
-  background: url(../img/product/veck/4_vae/4-2.png) no-repeat scroll;
-  background-position-x: 20%;
-  background-position-y: -35%;
+  background: url(../img/product/veck/4_vae/4-2.png) no-repeat 20% -35% scroll;
   background-size: 600px;
+  -webkit-background-size: 600px;
+  -moz-background-size: 600px;
+  -o-background-size: 600px;
   padding: 0;
 }
 
 #product-section-6 {
-  background: url(../img/product/veck/5_vac/5-2.png) no-repeat scroll;
-  background-position-x: 0;
-  background-position-y: 100%;
+  background: url(../img/product/veck/5_vac/5-2.png) no-repeat 0% 100% scroll;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   padding-bottom: 50px;
 }
 
@@ -113,53 +123,53 @@
 }
 
 #product-section-8 {
-  background: url(../img/product/veck/7_vax/7-3.png) no-repeat scroll;
-  background-position-x: 80%;
-  background-position-y: 50%;
+  background: url(../img/product/veck/7_vax/7-3.png) no-repeat 80% 50% scroll;
   background-size: 400px;
-
+  -webkit-background-size: 400px;
+  -moz-background-size: 400px;
+  -o-background-size: 400px;
 }
 
 #product-section-9 {
-  background: url(../img/product/veck/8_vws/8-1.png) no-repeat scroll;
-  background-position-x: 20%;
-  background-position-y: 50%;
+  background: url(../img/product/veck/8_vws/8-1.png) no-repeat 20% 50% scroll;
   background-size: 400px;
-
+  -webkit-background-size: 400px;
+  -moz-background-size: 400px;
+  -o-background-size: 400px;
 }
 
 #product-section-10 {
-  background: url(../img/product/veck/9_vws/9-1.png) no-repeat scroll;
-  background-position-x: 80%;
-  background-position-y: 50%;
+  background: url(../img/product/veck/9_vws/9-1.png) no-repeat 80% 50% scroll;
   background-size: 300px;
-
+  -webkit-background-size: 300px;
+  -moz-background-size: 300px;
+  -o-background-size: 300px;
 }
 
 #product-section-11 {
-  background: url(../img/product/veck/10_vhs/10-1.png) no-repeat scroll;
-  background-position-x: 20%;
-  background-position-y: 80%;
+  background: url(../img/product/veck/10_vhs/10-1.png) no-repeat 20% 80% scroll;
   background-size: 400px;
-
+  -webkit-background-size: 400px;
+  -moz-background-size: 400px;
+  -o-background-size: 400px;
 }
 
 #product-env-section-1 {
   background: url(../img/product/veckenv/bg.jpg) no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
   -o-background-size: cover;
-
+  background-size: cover;
   h1 {
     padding-left: 100px;
   }
 }
 
 #product-env-section-2 {
-  background: url(../img/product/veckenv/vgd/1-2.jpg) no-repeat scroll;
-  background-position-x: 85%;
-  background-position-y: 5%;
+  background: url(../img/product/veckenv/vgd/1-2.jpg) no-repeat 85% 5% scroll;
+  -webkit-background-size: 500px;
+  -moz-background-size: 500px;
+  -o-background-size: 500px;
   background-size: 500px;
   &.intro-product{
     padding: 0 0 10px;
@@ -167,9 +177,10 @@
 }
 
 #product-env-section-3 {
-  background: url(../img/product/veckenv/vxfd/2-1.jpg) no-repeat scroll;
-  background-position-x: 85%;
-  background-position-y: 50%;
+  background: url(../img/product/veckenv/vxfd/2-1.jpg) no-repeat 85% 50% scroll;
+  -webkit-background-size: 500px;
+  -moz-background-size: 500px;
+  -o-background-size: 500px;
   background-size: 500px;
 
 }
