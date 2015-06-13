@@ -28,7 +28,7 @@ i.mdi-navigation-menu {
 .logo-text {
   margin-left: 20px;
   padding-left: 75px;
-  font-size: 1.725em;
+  font-size: 1.325em;
 
 }
 .navbar-custom a {
@@ -86,6 +86,16 @@ i.mdi-navigation-menu {
   .col {
     padding: 0 1px;
   }
+
+  .about-slider {
+    margin: 0;
+    a {
+      color: #424242;
+      &:hover {
+        color: #4caf50;
+      }
+    }
+  }
 }
 
 .img-card .card-title-custom {
@@ -111,6 +121,9 @@ i.mdi-navigation-menu {
 .row .newsbox {
   height: 275px;
   padding: 20px;
+  border: 1px solid #fff;
+
+
   p {
     font-size: 14px;
     margin: 10.5px auto;
@@ -182,7 +195,7 @@ ul.navmenu {
         text-align: right;
         &:hover, &.active {
           background-color: #e0e0e0;
-          
+
         }
         a {
 
@@ -245,4 +258,10 @@ ul.sidenavmenu {
 
 .footer h6 {
   font-size: 10px;
+}
+
+.modal {
+  img {
+    margin: 5px auto;
+  }
 }

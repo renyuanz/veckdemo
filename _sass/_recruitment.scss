@@ -12,18 +12,18 @@
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-}
 
-.intro-recruitment .intro-body {
-  display: table-cell;
-  vertical-align: middle;
-}
+  .intro-body {
+    display: table-cell;
+    vertical-align: middle;
 
-.intro-recruitment .intro-body .intro-text {
-  text-align: left;
-  font-size: 48px;
-  letter-spacing: 3px;
-  text-shadow: 2px 2px 8px #000000;
+    .intro-text {
+      text-align: left;
+      font-size: 48px;
+      letter-spacing: 3px;
+      text-shadow: 2px 2px 8px #000000;
+    }
+  }
 }
 
 .rec-content {
@@ -51,7 +51,8 @@
     }
 
     .indicator {
-      background-color: #212121;
+      background-color: #4caf50;
+      height: 3px;
     }
   }
 

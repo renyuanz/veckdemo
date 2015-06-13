@@ -8116,7 +8116,7 @@ i.mdi-navigation-menu {
 .logo-text {
   margin-left: 20px;
   padding-left: 75px;
-  font-size: 1.725em; }
+  font-size: 1.325em; }
 
 .navbar-custom a {
   color: #4e4e4e;
@@ -8164,6 +8164,12 @@ i.mdi-navigation-menu {
     margin: 0 auto; }
   .section-home .col {
     padding: 0 1px; }
+  .section-home .about-slider {
+    margin: 0; }
+    .section-home .about-slider a {
+      color: #424242; }
+      .section-home .about-slider a:hover {
+        color: #4caf50; }
 
 .img-card .card-title-custom {
   position: absolute;
@@ -8185,7 +8191,8 @@ i.mdi-navigation-menu {
 
 .row .newsbox {
   height: 275px;
-  padding: 20px; }
+  padding: 20px;
+  border: 1px solid #fff; }
   .row .newsbox p {
     font-size: 14px;
     margin: 10.5px auto; }
@@ -8273,6 +8280,9 @@ ul.sidenavmenu > li ul li a {
 .footer h6 {
   font-size: 10px; }
 
+.modal img {
+  margin: 5px auto; }
+
 /* About page */
 .intro-about {
   display: table;
@@ -8359,7 +8369,7 @@ ul.sidenavmenu > li ul li a {
   .about-slider button {
     border: none; }
   .about-slider p {
-    padding: 10px;
+    padding: 30px;
     line-height: 2; }
 
 .text-title {
@@ -8448,16 +8458,14 @@ ul.sidenavmenu > li ul li a {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover; }
-
-.intro-recruitment .intro-body {
-  display: table-cell;
-  vertical-align: middle; }
-
-.intro-recruitment .intro-body .intro-text {
-  text-align: left;
-  font-size: 48px;
-  letter-spacing: 3px;
-  text-shadow: 2px 2px 8px #000000; }
+  .intro-recruitment .intro-body {
+    display: table-cell;
+    vertical-align: middle; }
+    .intro-recruitment .intro-body .intro-text {
+      text-align: left;
+      font-size: 48px;
+      letter-spacing: 3px;
+      text-shadow: 2px 2px 8px #000000; }
 
 .rec-content p {
   padding: 10px 0; }
@@ -8475,7 +8483,8 @@ ul.sidenavmenu > li ul li a {
   .section-rec .tabs .tab a:hover {
     color: #545454; }
 .section-rec .tabs .indicator {
-  background-color: #212121; }
+  background-color: #4caf50;
+  height: 3px; }
 .section-rec h6 {
   font-size: 20px;
   color: #424242; }
@@ -8535,7 +8544,7 @@ ul.sidenavmenu > li ul li a {
         background: -moz-linear-gradient(left, #000000 0%, #FFFFFF 100%);
         background: -webkit-linear-gradient(left, #000000 0%, #FFFFFF 100%);
         background: linear-gradient(left, #000000 0%, #FFFFFF 100%);
-        width: 30%;
+        width: 20%;
         display: block; }
 
 .product-text {
@@ -8543,30 +8552,27 @@ ul.sidenavmenu > li ul li a {
   text-transform: capitalize; }
 
 #product-section-1 {
+  height: 80%;
   background: url(../img/product/veck/1_vfc/right.png) no-repeat bottom right scroll;
   background-size: contain;
-  -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain; }
 
 #product-section-2 {
   background: url(../img/product/veck/1_vfc/left.png) no-repeat bottom left scroll;
   background-size: auto;
-  -webkit-background-size: auto;
   -moz-background-size: auto;
   -o-background-size: auto; }
 
 #product-section-4 {
   background: url(../img/product/veck/3_vah/3-2.png) no-repeat 90% 50% scroll;
   background-size: 400px;
-  -webkit-background-size: 400px;
   -moz-background-size: 400px;
   -o-background-size: 400px; }
 
 #product-section-5 {
   background: url(../img/product/veck/4_vae/4-2.png) no-repeat 20% -35% scroll;
   background-size: 600px;
-  -webkit-background-size: 600px;
   -moz-background-size: 600px;
   -o-background-size: 600px;
   padding: 0; }
@@ -8574,7 +8580,6 @@ ul.sidenavmenu > li ul li a {
 #product-section-6 {
   background: url(../img/product/veck/5_vac/5-2.png) no-repeat 0% 100% scroll;
   background-size: cover;
-  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   padding-bottom: 50px; }
@@ -8585,34 +8590,30 @@ ul.sidenavmenu > li ul li a {
 #product-section-8 {
   background: url(../img/product/veck/7_vax/7-3.png) no-repeat 80% 50% scroll;
   background-size: 400px;
-  -webkit-background-size: 400px;
   -moz-background-size: 400px;
   -o-background-size: 400px; }
 
 #product-section-9 {
   background: url(../img/product/veck/8_vws/8-1.png) no-repeat 20% 50% scroll;
   background-size: 400px;
-  -webkit-background-size: 400px;
   -moz-background-size: 400px;
   -o-background-size: 400px; }
 
 #product-section-10 {
   background: url(../img/product/veck/9_vws/9-1.png) no-repeat 80% 50% scroll;
   background-size: 300px;
-  -webkit-background-size: 300px;
   -moz-background-size: 300px;
   -o-background-size: 300px; }
 
 #product-section-11 {
   background: url(../img/product/veck/10_vhs/10-1.png) no-repeat 20% 80% scroll;
   background-size: 400px;
-  -webkit-background-size: 400px;
   -moz-background-size: 400px;
   -o-background-size: 400px; }
 
 #product-env-section-1 {
+  height: 80%;
   background: url(../img/product/veckenv/bg.jpg) no-repeat bottom center scroll;
-  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
@@ -8621,7 +8622,6 @@ ul.sidenavmenu > li ul li a {
 
 #product-env-section-2 {
   background: url(../img/product/veckenv/vgd/1-2.jpg) no-repeat 85% 5% scroll;
-  -webkit-background-size: 500px;
   -moz-background-size: 500px;
   -o-background-size: 500px;
   background-size: 500px; }
@@ -8630,7 +8630,6 @@ ul.sidenavmenu > li ul li a {
 
 #product-env-section-3 {
   background: url(../img/product/veckenv/vxfd/2-1.jpg) no-repeat 85% 50% scroll;
-  -webkit-background-size: 500px;
   -moz-background-size: 500px;
   -o-background-size: 500px;
   background-size: 500px; }
