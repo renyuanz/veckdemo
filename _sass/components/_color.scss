@@ -179,7 +179,7 @@ $green: (
   "lighten-3":  #A5D6A7,
   "lighten-2":  #81C784,
   "lighten-1":  #66BB6A,
-  "base":       #4CAF50,
+  "base":       #7EB446,
   "darken-1":   #43A047,
   "darken-2":   #388E3C,
   "darken-3":   #2E7D32,
@@ -377,7 +377,7 @@ $colors: (
     @else {
       .#{$color_name}.#{$color_type} {
         background-color: $color_value !important;
-      }      
+      }
       .#{$color_name}-text.text-#{$color_type} {
         color: $color_value !important;
       }
@@ -409,4 +409,3 @@ $colors: (
   @warn "Unknown `#{name}` in $colors.";
   @return null;
 }
-

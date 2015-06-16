@@ -1,5 +1,5 @@
 .materialboxed {
-  cursor: zoom-in;
+  cursor: pointer;
   position: relative;
   @include transition(opacity .4s);
 
@@ -12,7 +12,7 @@
 }
 
 .materialboxed.active {
-  cursor: zoom-out;
+  cursor: pointer;
 }
 
 #materialbox-overlay {

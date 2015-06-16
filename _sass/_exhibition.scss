@@ -21,8 +21,8 @@
 .intro-exhi .intro-body .intro-text {
   text-align: left;
   font-size: 48px;
-  letter-spacing: 3px;
-  text-shadow: 2px 2px 8px #000000;
+
+  text-shadow: 1px 1px 4px #000000;
 }
 
 @media screen and (max-width: 500px) {
@@ -69,7 +69,10 @@
         color: #212121;
         @include transition( color .28s ease);
         &:hover {
-          color: lighten(#212121, 20%);
+          p,i {
+            color: #7EB446;
+          }
+
         }
       }
       p {
@@ -79,7 +82,7 @@
     }
 
     .indicator {
-      background-color: #4caf50;
+      background-color: #7EB446;;
       height: 8px;
     }
   }

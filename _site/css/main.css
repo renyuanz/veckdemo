@@ -851,10 +851,10 @@
   color: #66BB6A !important; }
 
 .green {
-  background-color: #4CAF50 !important; }
+  background-color: #7EB446 !important; }
 
 .green-text {
-  color: #4CAF50 !important; }
+  color: #7EB446 !important; }
 
 .green.darken-1 {
   background-color: #43A047 !important; }
@@ -5964,7 +5964,7 @@ a.waves-effect .waves-ripple {
     transform: scaleX(1) translate3d(0, 0, 0); }
 
 .materialboxed {
-  cursor: zoom-in;
+  cursor: pointer;
   position: relative;
   -webkit-transition: opacity 0.4s;
   -moz-transition: opacity 0.4s;
@@ -5977,7 +5977,7 @@ a.waves-effect .waves-ripple {
       opacity: .8; }
 
 .materialboxed.active {
-  cursor: zoom-out; }
+  cursor: pointer; }
 
 #materialbox-overlay {
   position: fixed;
@@ -6148,8 +6148,8 @@ textarea.materialize-textarea {
   input[type=search]:focus.valid,
   textarea.materialize-textarea.valid,
   textarea.materialize-textarea:focus.valid {
-    border-bottom: 1px solid #4CAF50;
-    box-shadow: 0 1px 0 0 #4CAF50; }
+    border-bottom: 1px solid #7EB446;
+    box-shadow: 0 1px 0 0 #7EB446; }
   input[type=text].invalid, input[type=text]:focus.invalid,
   input[type=password].invalid,
   input[type=password]:focus.invalid,
@@ -7373,7 +7373,7 @@ select {
       transition: background-color 0.3s;
       border-radius: 50%; }
       .slider .indicators .indicator-item.active {
-        background-color: #4CAF50; }
+        background-color: #7EB446; }
 
 /* ==========================================================================
    $BASE-PICKER
@@ -8093,13 +8093,12 @@ i.mdi-navigation-menu {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #e8e8e8; }
 
 [role="banner"] {
   width: 50px;
   margin-left: 30px;
-  margin-top: 7px;
+  margin-top: 3px;
   background: url(../img/logo.png) no-repeat left top;
   background-size: 100%;
   vertical-align: text-top;
@@ -8116,7 +8115,7 @@ i.mdi-navigation-menu {
 .logo-text {
   margin-left: 20px;
   padding-left: 75px;
-  font-size: 1.325em; }
+  font-size: 1.45em; }
 
 .navbar-custom a {
   color: #4e4e4e;
@@ -8145,32 +8144,32 @@ i.mdi-navigation-menu {
     .intro .intro-body .intro-text {
       text-align: left;
       font-size: 36px;
-      letter-spacing: 2px;
       text-shadow: 1px 1px 4px #000000; }
 
 .img-card {
   height: auto;
-  overflow: hidden; }
+  overflow: hidden;
+  margin: auto 0.5px; }
 
 .section-home {
   padding: 0;
   margin: 0; }
   .section-home .row {
-    margin: 0 auto; }
+    margin: 1px auto; }
   .section-home .col {
-    padding: 0 1px; }
+    padding: 0; }
   .section-home .about-slider {
     margin: 0; }
     .section-home .about-slider a {
       color: #424242; }
       .section-home .about-slider a:hover {
-        color: #4caf50; }
+        color: #7EB446; }
 
 .img-card .card-title-custom {
   position: absolute;
   top: 0;
   left: 0;
-  margin: 40px auto 0px;
+  margin: 60px auto 0px;
   font-size: 18px;
   width: 100%;
   text-align: center;
@@ -8192,11 +8191,19 @@ i.mdi-navigation-menu {
     margin: 10.5px auto; }
 
 .news .date-box {
+  border: 2px solid #666;
+  width: 50px;
+  height: 50px;
+  padding: 4px;
+  float: right;
   line-height: 1;
   margin: 2px 10px;
-  text-align: right; }
+  text-align: center; }
   .news .date-box .date {
-    font-size: 26px; }
+    font-size: 24px;
+    font-weight: 700; }
+  .news .date-box .year {
+    font-size: 12px; }
 
 /* Navbar */
 ul.navmenu {
@@ -8290,22 +8297,19 @@ ul.sidenavmenu > li ul li a {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover; }
-
-.intro-about .intro-body {
-  display: table-cell;
-  vertical-align: middle; }
-
-.intro-about .intro-body .intro-text {
-  text-align: left;
-  font-size: 48px;
-  letter-spacing: 2px;
-  text-shadow: 2px 2px 8px #000000; }
+  .intro-about .intro-body {
+    display: table-cell;
+    vertical-align: middle; }
+    .intro-about .intro-body .intro-text {
+      text-align: left;
+      font-size: 48px;
+      text-shadow: 1px 1px 4px #000000; }
 
 .about-content p {
-  padding: 10px 0;
+  padding: 5px 0;
   line-height: 2; }
 .about-content .section {
-  padding: 100px 0;
+  padding: 50px 0;
   margin: 3px auto; }
 
 /* About page icon background */
@@ -8390,8 +8394,7 @@ ul.sidenavmenu > li ul li a {
 .intro-exhi .intro-body .intro-text {
   text-align: left;
   font-size: 48px;
-  letter-spacing: 3px;
-  text-shadow: 2px 2px 8px #000000; }
+  text-shadow: 1px 1px 4px #000000; }
 
 @media screen and (max-width: 500px) {
   .tabs-custom p,
@@ -8422,13 +8425,13 @@ ul.sidenavmenu > li ul li a {
         -o-transition: color 0.28s ease;
         -ms-transition: color 0.28s ease;
         transition: color 0.28s ease; }
-        .section-exhi .tabs .tab a:hover {
-          color: #545454; }
+        .section-exhi .tabs .tab a:hover p, .section-exhi .tabs .tab a:hover i {
+          color: #7EB446; }
       .section-exhi .tabs .tab p {
         padding: 0;
         margin: 0; }
     .section-exhi .tabs .indicator {
-      background-color: #4caf50;
+      background-color: #7EB446;
       height: 8px; }
   .section-exhi .tabs-content .row {
     padding: 0;
@@ -8477,7 +8480,7 @@ ul.sidenavmenu > li ul li a {
   .section-rec .tabs .tab a:hover {
     color: #545454; }
 .section-rec .tabs .indicator {
-  background-color: #4caf50;
+  background-color: #7EB446;
   height: 3px; }
 .section-rec h6 {
   font-size: 20px;
@@ -8486,14 +8489,14 @@ ul.sidenavmenu > li ul li a {
   margin: 10px auto;
   color: #424242; }
 .section-rec a {
-  color: #4caf50; }
+  color: #7EB446; }
 
 /* Product page */
 .intro-product {
   display: table;
   width: 100%;
   height: 50%;
-  padding: 150px 0 100px;
+  padding: 0;
   text-align: center;
   color: #424242; }
   .intro-product .intro-body {
@@ -8516,17 +8519,18 @@ ul.sidenavmenu > li ul li a {
       margin: 3rem auto -12rem; }
       .intro-product .intro-body .product-item-img .product-1 {
         position: absolute;
-        top: -2.2rem;
+        top: -2.8rem;
         right: 6rem;
         max-height: 275px;
         z-index: 2; }
       .intro-product .intro-body .product-item-img .product-1 + .product-1 {
-        top: -3.9rem;
+        top: -4.5rem;
         display: block;
         max-width: 75%;
         right: 0;
         z-index: 3;
-        max-height: 300px; }
+        max-height: 300px;
+        position: absolute; }
     .intro-product .intro-body .intro-text {
       text-align: left;
       font-size: 24px;
@@ -8542,7 +8546,7 @@ ul.sidenavmenu > li ul li a {
         display: block; }
 
 .product-text {
-  color: #4caf50;
+  color: #7EB446;
   text-transform: capitalize; }
 
 #product-section-1 {
@@ -8559,7 +8563,7 @@ ul.sidenavmenu > li ul li a {
   -o-background-size: auto; }
 
 #product-section-4 {
-  background: url(../img/product/veck/3_vah/3-2.png) no-repeat 90% 50% scroll;
+  background: url(../img/product/veck/3_vah/3-2.png) no-repeat 80% 50% scroll;
   background-size: 400px;
   -moz-background-size: 400px;
   -o-background-size: 400px; }
@@ -8572,38 +8576,38 @@ ul.sidenavmenu > li ul li a {
   padding: 0; }
 
 #product-section-6 {
-  background: url(../img/product/veck/5_vac/5-2.png) no-repeat 0% 100% scroll;
+  background: url(../img/product/veck/5_vac/5-2.png) no-repeat left top scroll;
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  padding-bottom: 50px; }
+  padding-bottom: 10px; }
 
 #product-section-7 {
   padding: 100px 0 0; }
 
 #product-section-8 {
   background: url(../img/product/veck/7_vax/7-3.png) no-repeat 80% 50% scroll;
-  background-size: 400px;
-  -moz-background-size: 400px;
-  -o-background-size: 400px; }
+  background-size: 500px;
+  -moz-background-size: 500px;
+  -o-background-size: 500px; }
 
 #product-section-9 {
   background: url(../img/product/veck/8_vws/8-1.png) no-repeat 20% 50% scroll;
-  background-size: 400px;
-  -moz-background-size: 400px;
-  -o-background-size: 400px; }
+  background-size: 500px;
+  -moz-background-size: 500px;
+  -o-background-size: 500px; }
 
 #product-section-10 {
-  background: url(../img/product/veck/9_vws/9-1.png) no-repeat 80% 50% scroll;
-  background-size: 300px;
-  -moz-background-size: 300px;
-  -o-background-size: 300px; }
+  background: url(../img/product/veck/9_vws/9-1.png) no-repeat 85% 50% scroll;
+  background-size: 450px;
+  -moz-background-size: 450px;
+  -o-background-size: 450px; }
 
 #product-section-11 {
-  background: url(../img/product/veck/10_vhs/10-1.png) no-repeat 20% 80% scroll;
-  background-size: 400px;
-  -moz-background-size: 400px;
-  -o-background-size: 400px; }
+  background: url(../img/product/veck/10_vhs/10-1.png) no-repeat 10% 70% scroll;
+  background-size: 450px;
+  -moz-background-size: 450px;
+  -o-background-size: 450px; }
 
 #product-env-section-1 {
   height: 80%;
