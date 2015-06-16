@@ -2068,7 +2068,8 @@ ul {
 .divider {
   height: 1px;
   overflow: hidden;
-  background-color: #e0e0e0; }
+  background-color: #666;
+  margin-top: 20px; }
 
 blockquote {
   margin: 20px 0;
@@ -8461,8 +8462,7 @@ ul.sidenavmenu > li ul li a {
     .intro-recruitment .intro-body .intro-text {
       text-align: left;
       font-size: 48px;
-      letter-spacing: 3px;
-      text-shadow: 2px 2px 8px #000000; }
+      text-shadow: 1px 1px 4px #000000; }
 
 .rec-content p {
   padding: 10px 0; }
@@ -8513,57 +8513,69 @@ ul.sidenavmenu > li ul li a {
       .intro-product .intro-body .product-item > span {
         display: table-cell;
         vertical-align: middle; }
-    .intro-product .intro-body .product-item-img {
-      position: relative;
-      max-width: 80%;
-      margin: 3rem auto -12rem; }
-      .intro-product .intro-body .product-item-img .product-1 {
-        position: absolute;
-        top: -2.8rem;
-        right: 6rem;
-        max-height: 275px;
-        z-index: 2; }
-      .intro-product .intro-body .product-item-img .product-1 + .product-1 {
-        top: -4.5rem;
-        display: block;
-        max-width: 75%;
-        right: 0;
-        z-index: 3;
-        max-height: 300px;
-        position: absolute; }
     .intro-product .intro-body .intro-text {
       text-align: left;
       font-size: 24px;
       text-shadow: 1px #000000;
-      line-height: 1.3; }
+      line-height: 1.3;
+      margin-left: 13rem; }
       .intro-product .intro-body .intro-text:after {
         content: "";
-        height: 2px;
+        height: 1px;
         background: -moz-linear-gradient(left, #000000 0%, #FFFFFF 100%);
         background: -webkit-linear-gradient(left, #000000 0%, #FFFFFF 100%);
         background: linear-gradient(left, #000000 0%, #FFFFFF 100%);
-        width: 20%;
+        width: 15%;
         display: block; }
 
+.product-imgs {
+  position: relative; }
+
+.product-img {
+  position: relative;
+  display: none; }
+
+.product-img + .product-img {
+  display: none; }
+
+@media (min-width: 750px) {
+  .hero {
+    height: 50%;
+    padding: 10rem 0 7rem; }
+
+  .product-img {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 1.7rem;
+    right: 9rem;
+    max-height: 300px; }
+
+  .product-img + .product-img {
+    display: block;
+    top: -2.3rem;
+    right: 0;
+    z-index: 3;
+    max-height: 360px; } }
 .product-text {
   color: #7EB446;
   text-transform: capitalize; }
 
 #product-section-1 {
   height: 80%;
-  background: url(../img/product/veck/1_vfc/right.png) no-repeat right scroll;
-  background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain; }
+  background: url(../img/product/veck/1_vfc/right.jpg) no-repeat left bottom scroll;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
 
 #product-section-2 {
-  background: url(../img/product/veck/1_vfc/left.png) no-repeat left scroll;
-  background-size: auto;
-  -moz-background-size: auto;
-  -o-background-size: auto; }
+  background: url(../img/product/veck/1_vfc/left.png) no-repeat 20% 50% scroll;
+  background-size: 400px;
+  -moz-background-size: 400px;
+  -o-background-size: 400px; }
 
 #product-section-4 {
-  background: url(../img/product/veck/3_vah/3-2.png) no-repeat 80% 50% scroll;
+  background: url(../img/product/veck/3_vah/3-2.png) no-repeat 70% 50% scroll;
   background-size: 400px;
   -moz-background-size: 400px;
   -o-background-size: 400px; }
@@ -8580,7 +8592,9 @@ ul.sidenavmenu > li ul li a {
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  padding-bottom: 10px; }
+  padding-bottom: 0px; }
+  #product-section-6 .container {
+    margin-top: 12.0rem; }
 
 #product-section-7 {
   padding: 100px 0 0; }
@@ -8604,7 +8618,7 @@ ul.sidenavmenu > li ul li a {
   -o-background-size: 450px; }
 
 #product-section-11 {
-  background: url(../img/product/veck/10_vhs/10-1.png) no-repeat 10% 70% scroll;
+  background: url(../img/product/veck/10_vhs/10-1.png) no-repeat 20% 70% scroll;
   background-size: 450px;
   -moz-background-size: 450px;
   -o-background-size: 450px; }
@@ -8619,7 +8633,7 @@ ul.sidenavmenu > li ul li a {
     margin: 0 8rem; }
 
 #product-env-section-2 {
-  background: url(../img/product/veckenv/vgd/1-2.jpg) no-repeat 85% 5% scroll;
+  background: url(../img/product/veckenv/vgd/1-2.png) no-repeat 75% 15% scroll;
   -moz-background-size: 500px;
   -o-background-size: 500px;
   background-size: 500px; }
@@ -8627,7 +8641,7 @@ ul.sidenavmenu > li ul li a {
     padding: 0 0 10px; }
 
 #product-env-section-3 {
-  background: url(../img/product/veckenv/vxfd/2-1.jpg) no-repeat 85% 50% scroll;
+  background: url(../img/product/veckenv/vxfd/2-1.png) no-repeat 75% 50% scroll;
   -moz-background-size: 500px;
   -o-background-size: 500px;
   background-size: 500px; }
