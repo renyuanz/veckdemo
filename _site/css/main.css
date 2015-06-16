@@ -8529,7 +8529,8 @@ ul.sidenavmenu > li ul li a {
         display: block; }
 
 .product-imgs {
-  position: relative; }
+  position: relative;
+  margin: 0; }
 
 .product-img {
   position: relative;
@@ -8542,18 +8543,29 @@ ul.sidenavmenu > li ul li a {
   .hero {
     height: 50%;
     padding: 10rem 0 7rem; }
+    .hero .container .row {
+      margin: 30px auto 0; }
+    .hero .product-item {
+      background-color: #eee;
+      height: 80px;
+      display: table;
+      border: 1px solid #fff;
+      table-layout: fixed; }
+      .hero .product-item > span {
+        display: table-cell;
+        vertical-align: middle; }
 
   .product-img {
     display: block;
     position: absolute;
     z-index: 2;
-    top: 1.7rem;
+    top: -0.2rem;
     right: 9rem;
     max-height: 300px; }
 
   .product-img + .product-img {
     display: block;
-    top: -2.3rem;
+    top: -4.2rem;
     right: 0;
     z-index: 3;
     max-height: 360px; } }
