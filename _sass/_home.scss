@@ -7,27 +7,20 @@ i.mdi-navigation-menu {
   text-transform: uppercase;
   background-color: #e8e8e8;
 }
-[role="banner"] {
-  width: 50px;
-  margin-left: 30px;
-  margin-top: 3px;
-  background: url(../img/logo.png) no-repeat left top;
-  background-size: 100%;
-  vertical-align: text-top;
-  position: relative;
-}
-.ir {
-  border: 0;
-  direction: ltr;
+
+
+
+
+.header-img{
   display: inline-block;
-  overflow: hidden;
-  text-align: left;
-  text-indent: -999em;
+  height: 100%;
+  vertical-align: middle;
 }
-.logo-text {
+img.logo-img {
+  vertical-align: middle;
+  max-height: 20px;
+  margin-top: -10px;
   margin-left: 20px;
-  padding-left: 75px;
-  font-size: 1.45em;
 
 }
 .navbar-custom a {
@@ -47,7 +40,7 @@ i.mdi-navigation-menu {
   padding: 100px 0;
   text-align: center;
   color: #f5f5f5;
-  background: url(../img/home/home-bg.png) no-repeat bottom center scroll;
+  background: url(../img/home/bg.jpg) no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -69,8 +62,13 @@ i.mdi-navigation-menu {
 .img-card {
   height: auto;
   overflow: hidden;
-  margin: auto 0.5px;
+  border-right: 1px solid #fff;
+
 }
+.no-border {
+  border: none;
+}
+
 
 .section-home {
   padding: 0;
@@ -84,7 +82,8 @@ i.mdi-navigation-menu {
   }
 
   .about-slider {
-    margin: 0;
+    height: 64px;
+    margin: 0 auto;
     a {
       color: #424242;
       &:hover {
@@ -98,7 +97,7 @@ i.mdi-navigation-menu {
   position: absolute;
   top: 0;
   left: 0;
-  margin: 60px auto 0px;
+  margin: 40px auto 0px;
   font-size: 18px;
   width:100%;
   text-align: center;
@@ -126,15 +125,22 @@ i.mdi-navigation-menu {
 }
 
 .news {
-  .date-box{
-    border: 2px solid #666;
-    width: 50px;
-    height: 50px;
-    padding: 4px;
-    float: right;
-    line-height: 1;
-    margin: 2px 10px;
+  .news-wrapper {
+    margin-left: 10%;
+    width: 80%;
     text-align: center;
+  }
+  .news-content {
+    margin-top: 5px;
+    display: inline-block;
+  }
+  .date-box{
+    display: inline-block;
+    border: 2px solid #7EB446;
+    padding: 4px;
+    line-height: 1;
+    text-align: center;
+    margin-right: 20px;
     .date {
       font-size: 24px;
       font-weight: 700;
