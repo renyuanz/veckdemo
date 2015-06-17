@@ -8185,19 +8185,20 @@ img.logo-img {
     margin: 10.5px auto; }
 
 .news .news-wrapper {
-  margin-left: 10%;
-  width: 80%;
+  margin-left: 5%;
+  width: 90%;
   text-align: center; }
 .news .news-content {
   margin-top: 5px;
-  display: inline-block; }
+  display: inline-block;
+  text-align: left; }
 .news .date-box {
   display: inline-block;
   border: 2px solid #7EB446;
   padding: 4px;
   line-height: 1;
   text-align: center;
-  margin-right: 20px; }
+  margin-right: 5px; }
   .news .date-box .date {
     font-size: 24px;
     font-weight: 700; }

@@ -126,13 +126,14 @@ img.logo-img {
 
 .news {
   .news-wrapper {
-    margin-left: 10%;
-    width: 80%;
+    margin-left: 5%;
+    width: 90%;
     text-align: center;
   }
   .news-content {
     margin-top: 5px;
     display: inline-block;
+    text-align: left;
   }
   .date-box{
     display: inline-block;
@@ -140,7 +141,7 @@ img.logo-img {
     padding: 4px;
     line-height: 1;
     text-align: center;
-    margin-right: 20px;
+    margin-right: 5px;
     .date {
       font-size: 24px;
       font-weight: 700;
