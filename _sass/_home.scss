@@ -18,7 +18,7 @@ i.mdi-navigation-menu {
 }
 img.logo-img {
   vertical-align: middle;
-  width: 100px;
+  max-height: 23px;
   margin-top: -10px;
   margin-left: 20px;
 }
@@ -111,8 +111,10 @@ img.logo-img {
   background-color: #212121;
 }
 
+
+
 .row .newsbox {
-  height: 275px;
+  height: 300px;
   padding: 20px;
   border: 1px solid #fff;
 
@@ -151,6 +153,38 @@ img.logo-img {
   }
 }
 
+
+@media (max-width: 600px) {
+  .row .newsbox {
+    height: 300px;
+    padding: 10px;
+    border: 1px solid #fff;
+    font-size: 12px;
+
+    p {
+      font-size: 12px;
+      margin: 10.5px auto;
+    }
+  }
+
+  .news {
+    .date-box{
+      display: inline-block;
+      border: 2px solid #7EB446;
+      padding: 4px;
+      line-height: 1;
+      text-align: center;
+      margin-right: 3px;
+      .date {
+        font-size: 16px;
+        font-weight: 700;
+      }
+      .year {
+        font-size: 10px;
+      }
+    }
+  }
+}
 /* Navbar */
 
 ul.navmenu {
