@@ -149,12 +149,11 @@ img.pdficon {
 
 #product-section-6 {
   background: url(../img/product/veck/5_vac/5-2.png) no-repeat left top scroll;
-  background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  padding-bottom: 0px;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   .container {
-    margin-top: 12.0rem;
+    margin-top: 14.0rem;
   }
 }
 
