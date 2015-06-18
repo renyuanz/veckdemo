@@ -8103,7 +8103,7 @@ i.mdi-navigation-menu {
 
 img.logo-img {
   vertical-align: middle;
-  max-height: 20px;
+  width: 100px;
   margin-top: -10px;
   margin-left: 20px; }
 
@@ -8292,7 +8292,7 @@ ul.sidenavmenu > li ul li a {
   padding: 100px 0;
   text-align: center;
   color: #fff;
-  background: url(../img/about/about-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/about/about-bg.jpg) no-repeat top center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
