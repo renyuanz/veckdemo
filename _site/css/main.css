@@ -8590,6 +8590,9 @@ ul.sidenavmenu > li ul li a {
     z-index: 3;
     max-height: 360px; }
 
+img.pdficon {
+  width: 24px; }
+
 .product-text {
   color: #7EB446;
   text-transform: capitalize; }
