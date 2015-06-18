@@ -8664,18 +8664,29 @@ ul.sidenavmenu > li ul li a {
 
 #product-env-section-2 {
   background: url(../img/product/veckenv/vgd/1-2.png) no-repeat 75% 15% scroll;
-  -moz-background-size: 400px;
-  -o-background-size: 400px;
-  background-size: 400px; }
+  -moz-background-size: 500px;
+  -o-background-size: 500px;
+  background-size: 500px; }
   #product-env-section-2.intro-product {
     padding: 0 0 10px; }
 
 #product-env-section-3 {
   background: url(../img/product/veckenv/vxfd/2-1.png) no-repeat 75% 50% scroll;
-  -moz-background-size: 400px;
-  -o-background-size: 400px;
-  background-size: 400px; }
+  -moz-background-size: 500px;
+  -o-background-size: 500px;
+  background-size: 500px; }
 
+@media screen and (max-width: 1300px) {
+  #product-env-section-2,
+  #product-env-section-3,
+  #product-section-11,
+  #product-section-8,
+  #product-section-2,
+  #product-section-4,
+  #product-section-7 {
+    -moz-background-size: 350px;
+    -o-background-size: 350px;
+    background-size: 350px; } }
 @media screen and (max-width: 600px) {
   #product-section-2,
   #product-section-3,
