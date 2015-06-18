@@ -8195,15 +8195,17 @@ img.logo-img {
 .news .date-box {
   display: inline-block;
   border: 2px solid #7EB446;
-  padding: 4px;
+  padding: 2px;
   line-height: 1;
   text-align: center;
-  margin-right: 5px; }
+  margin-right: 5px;
+  position: relative;
+  bottom: 3px; }
   .news .date-box .date {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 700; }
   .news .date-box .year {
-    font-size: 12px; }
+    font-size: 10px; }
 
 @media (max-width: 600px) {
   .row .newsbox {
