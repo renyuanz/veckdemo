@@ -8672,12 +8672,10 @@ img.pdficon {
   padding: 0; }
 
 #product-section-6 {
-  background: url(../img/product/veck/5_vac/5-2.png) no-repeat left top scroll;
-  background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; }
-  #product-section-6 .container {
-    margin-top: 14.0rem; }
+  background: url(../img/product/veck/5_vac/5-2.png) no-repeat 15% 50% scroll;
+  background-size: 400px;
+  -moz-background-size: 400px;
+  -o-background-size: 400px; }
 
 #product-section-7 {
   background: url(../img/product/veck/6_vac/6-1.jpg) no-repeat 75% 50% scroll;
@@ -8731,6 +8729,7 @@ img.pdficon {
   #product-section-8,
   #product-section-2,
   #product-section-4,
+  #product-section-6,
   #product-section-7 {
     -moz-background-size: 350px;
     -o-background-size: 350px;
