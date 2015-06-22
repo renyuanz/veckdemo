@@ -8429,10 +8429,9 @@ ul.sidenavmenu > li ul li a {
   font-size: 48px;
   text-shadow: 1px 1px 4px #000000; }
 
-#video1 iframe,
-#video2 iframe {
-  width: 510px;
-  height: 450px; }
+#MY_VIDEO_1,
+#MY_VIDEO_2 {
+  margin: 0 auto; }
 
 .poster-wrapper {
   position: relative;
