@@ -8414,7 +8414,7 @@ ul.sidenavmenu > li ul li a {
   padding: 100px 0;
   text-align: center;
   color: #fff;
-  background: url(../img/exhibition/bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/exhibition/bg.jpg) no-repeat top center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -8562,6 +8562,10 @@ ul.sidenavmenu > li ul li a {
 .section-rec a {
   color: #7EB446; }
 
+@media screen and (max-width: 500px) {
+  .section-rec .container {
+    padding: 0px 0.5rem;
+    width: 100%; } }
 /* Product page */
 .intro-product {
   display: table;

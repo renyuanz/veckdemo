@@ -16,10 +16,17 @@ $(document).ready(function() {
 
   $("ul.tabs-custom").tabs();
 
+  $(".modal-trigger").leanModal({
+    dismissble: true,
+    opacity: .5,
+    in_duration: 300,
+    out_duration: 200
+  });
+
   var myVideo1 = videojs('MY_VIDEO_1');
   var myVideo2 = videojs('MY_VIDEO_2');
 
-  $(".modal-trigger").leanModal({
+  $(".modal-trigger-video").leanModal({
     dismissble: true,
     opacity: .5,
     in_duration: 300,
